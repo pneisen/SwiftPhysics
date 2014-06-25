@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SwiftPhysics
 //
-//  Created by Peter D. Neisen on 6/24/14.
+//  Created by Pete Neisen on 6/24/14.
 //  Copyright (c) 2014 Pete Neisen. All rights reserved.
 //
 
