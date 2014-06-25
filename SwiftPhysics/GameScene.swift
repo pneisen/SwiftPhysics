@@ -11,7 +11,7 @@ import SpriteKit
 class GameScene: SKScene {
     var currentPath = CGPathCreateMutable()
     var currentDrawing = SKShapeNode()
-    let lineWidth :Float64 = 4
+    let lineWidth:CGFloat = 4
     
     override func didMoveToView(view: SKView) {
         setupScene()
@@ -83,9 +83,9 @@ class GameScene: SKScene {
     }
     
     func getRandomColor() -> UIColor {
-        let hue = (Float64(arc4random() % 256)) / 256.0
-        let saturation = ((Float64(arc4random() % 128)) / 256.0) + 0.5
-        let brightness = ((Float64(arc4random() % 128)) / 256.0) + 0.5
+        let hue = (CGFloat(arc4random() % 256)) / 256.0
+        let saturation = ((CGFloat(arc4random() % 128)) / 256.0) + 0.5
+        let brightness = ((CGFloat(arc4random() % 128)) / 256.0) + 0.5
         
         return UIColor(hue: hue, saturation: saturation, brightness: brightness, alpha: 1)
     }
